@@ -1,5 +1,9 @@
 A = [5,4,3,2,1]
 
+#select minimum number
+#put it at the start
+#when the first minimum number reaches 0th place,
+#all other minimum numbers follow that number
 
 def selectionSort(A):
 	
