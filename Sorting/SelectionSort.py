@@ -1,4 +1,6 @@
+# author: Sumedh Junghare
 A = [5,4,3,2,1]
+#A=[3,2,1,4]
 
 #select minimum number
 #put it at the start
@@ -13,6 +15,7 @@ def selectionSort(A):
 			if A[i]>A[j]:
 				indexOfMin = j
 		A[i],A[indexOfMin]=A[indexOfMin],A[i]
+		#print("PASS: "+str(i)+" "+str(A) )
 	
 	return A
 	
